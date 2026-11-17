@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دعوة زفاف مصطفى وطيبة</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #e8ddca;
+  color: #70552d;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 28px 15px;
+  background:
+    radial-gradient(ellipse at top, #fffdf5, #e9ddc9 75%);
+  overflow: hidden;
+  position: relative;
+}
+
+.invitation {
+  max-width: 520px;
+  margin: auto;
+  padding: 36px 22px;
+  min-height: 90vh;
+  position: relative;
+  border: 2px solid #c5a66b;
+  outline: 1px solid #dfcda9;
+  outline-offset: -9px;
+  background: rgba(255,253,244,.88);
+  box-shadow: 0 12px 45px #92784b35;
+}
+
+.invitation:before,
+.invitation:after {
+  content: "✧ ❀ ✧";
+  display: block;
+  color: #c3a16b;
+  font-size: 25px;
+  letter-spacing: 9px;
+}
+
+.crown {
+  font-size: 55px;
+  margin-top: 20px;
+  animation: glow 3s infinite;
+}
+
+@keyframes glow {
+  50% { transform: translateY(-5px); }
+}
+
+.small-title {
+  font-family: 'Amiri', serif;
+  font-size: 23px;
+  margin-top: 18px;
+  color: #997743;
+}
+
+h1 {
+  font-family: 'Amiri', serif;
+  font-size: clamp(34px, 9vw, 49px);
+  line-height: 1.5;
+  color: #9b7740;
+  margin: 15px 0;
+}
+
+.names {
+  font-family: 'Amiri', serif;
+  font-size: 29px;
+  color: #76552b;
+  line-height: 2;
+}
+
+.heart {
+  font-size: 29px;
+  color: #bd9270;
+  margin: 4px;
+}
+
+.divider {
+  color: #c1a16d;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.message {
+  font-family: 'Amiri', serif;
+  font-size: 23px;
+  line-height: 2;
+  color: #826744;
+}
+
+.details {
+  margin: 28px 0;
+  padding: 20px 12px;
+  border-top: 1px solid #d7c29b;
+  border-bottom: 1px solid #d7c29b;
+}
+
+.detail {
+  margin: 17px 0;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.detail strong {
+  color: #9a7845;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg,#b99a60,#80602f);
+  padding: 13px 30px;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px #a68b593d;
+  font-size: 16px;
+}
+
+.footer {
+  font-family: 'Amiri', serif;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #a18456;
+}
+
+.pearl {
+  position: fixed;
+  color: #fff;
+  text-shadow: 0 0 8px #c5a66b;
+  animation: fall 9s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes fall {
+  from { transform: translateY(-30px); opacity: 0; }
+  20% { opacity: .8; }
+  to { transform: translateY(105vh); opacity: 0; }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+<div class="invitation">
+
+<div class="crown">♛</div>
+
+<div class="small-title">
+بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيم
+</div>
+
+<div class="divider">✧ ❀ ✧</div>
+
+<h1>دعوة زفاف</h1>
+
+<div class="message">
+بكل الحب والفرح<br>
+نتشرف بدعوتكم لمشاركتنا<br>
+أجمل ليلة من ليالي العمر
+</div>
+
+<div class="divider">❦</div>
+
+<div class="names">
+مصطفى علي كريم
+<div class="heart">♥</div>
+طيبة محمد زغير
+</div>
+
+<div class="divider">✧ ❀ ✧</div>
+
+<div class="message">
+بفرحتنا تكتمل سعادتنا<br>
+وبوجودكم تزدان ليلتنا
+</div>
+
+<div class="details">
+
+<div class="detail">
+<strong>♛ تاريخ الزفاف</strong><br>
+يُضاف تاريخ الزواج هنا
+</div>
+
+<div class="detail">
+<strong>✧ مكان الحفل</strong><br>
+يُضاف اسم القاعة والعنوان هنا
+</div>
+
+<div class="detail">
+<strong>❀ وقت الحفل</strong><br>
+يُضاف وقت الحفل هنا
+</div>
+
+</div>
+
+<a class="button" href="#footer">
+يشرفنا حضوركم ♥
+</a>
+
+<div class="footer" id="footer">
+بحضوركم تكتمل فرحتنا<br>
+مصطفى وطيبة
+</div>
+
+<div class="divider">♛</div>
+
+</div>
+</div>
+
+<script>
+for(let i=0;i<15;i++){
+  let p=document.createElement('div');
+  p.className='pearl';
+  p.innerHTML='✧';
+  p.style.left=Math.random()*100+'%';
+  p.style.animationDelay=Math.random()*9+'s';
+  p.style.fontSize=(12+Math.random()*15)+'px';
+  document.body.appendChild(p);
+}
+</script>
+
+</body>
+</html>
